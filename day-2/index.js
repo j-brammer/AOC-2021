@@ -14,7 +14,27 @@ data.map(instruction => {
     }
 })
 
-console.log("Final position: ", position);
-console.log("Final depth: ", depth);
+console.log("Part 1 Final position: ", position);
+console.log("Part 1 Final depth: ", depth);
+console.log("Part 1 Solution: ", position * depth);
+console.log('\n');
 
-console.log("Solution: ", position * depth);
+depth = 0;
+position = 0;
+var aim = 0;
+
+data.map(instruction => {
+    if(instruction[0] === "down") {
+        aim += instruction[1];
+    } else if(instruction[0] === "up") {
+        aim -= instruction[1];
+    } else {
+        position += instruction[1];
+        depth += (aim * instruction[1]);
+    }
+})
+
+console.log("Part 2 Final position: ", position);
+console.log("Part 2 Final depth: ", depth);
+console.log("Part 2 Aim: ", aim);
+console.log("Part 2 Solution: ", position * depth);
