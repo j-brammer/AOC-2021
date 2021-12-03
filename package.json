@@ -1,0 +1,19 @@
+{
+  "name": "aoc-2021",
+  "version": "2021.0.0",
+  "description": "Advent of Code 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-brammer/AOC-2021.git"
+  },
+  "author": "Jason Brammer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-brammer/AOC-2021/issues"
+  },
+  "homepage": "https://github.com/j-brammer/AOC-2021#readme"
+}
