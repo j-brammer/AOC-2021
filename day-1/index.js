@@ -1,5 +1,5 @@
 const Files = require("../utils/files");
-const data = Files.readNumbersFromFile(__dirname + '/input.txt')
+const data = Files.readNumbersFromFile(__dirname + '/input.txt');
 
 function calculateSolution(data) {
     solution = 0;
